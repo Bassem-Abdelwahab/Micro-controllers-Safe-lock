@@ -11,7 +11,7 @@
 
 #define COUNT 0x00010000
 #define ENABLE 5
-#define MS 16000000
+#define MS 16000
 void systick_init();
 void systick_wait(u32 delay);
 void systick_delay_ms(u32 delay);

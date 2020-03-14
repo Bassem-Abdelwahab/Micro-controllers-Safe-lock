@@ -16,7 +16,7 @@ void systick_init(){
 }
 void systick_wait(u32 delay){
     NVIC_ST_RELOAD_R = delay-1;
-    while((NVIC_ST_CURRENT_R & COUNT) == 0);
+    while((NVIC_ST_CTRL_R & COUNT) == 0);
 
 }
 void systick_delay_ms(u32 delay){
