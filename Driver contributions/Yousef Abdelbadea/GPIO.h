@@ -7,6 +7,28 @@
 #include"types.h"
 #ifndef GPIO_H_
 #define GPIO_H_
+
+#define PortA 0
+#define PortB 1
+#define PortC 2
+#define PortD 3
+#define PortE 4
+#define PortF 5
+
+#define Pin0 0
+#define Pin1 1
+#define Pin2 2
+#define Pin3 3
+#define Pin4 4
+#define Pin5 5
+#define Pin6 6
+#define Pin7 7
+
+#define OutputPort 0xFF
+#define OutputPin 1
+#define input 0
+
+
 void GPIO_VidClockGattingMode(u8 PortNumber);
 void GPIO_VidDigitalEnable(u8 PortNumber,u8 Value);
 
